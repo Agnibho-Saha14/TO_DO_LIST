@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poetsen+One&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="main-heading">To Do List for Me</h1>
+    </header>
+    <button id="toggle-mode">Toggle Mode</button>
+    <form id="new-task"><input type="text" id="new-task-input" placeholder="What have you planned for today?">
+    <input type="submit" id="new-task-submit" value="Add task"/>
+
+    </form>
+    <main>
+        <section class="task-list">
+            <h2 class="tasks">Tasks</h2>
+            <div id="tasks">
+               <!---- <div class="task">
+                <div class="content">
+                    <input type="text" class="text" value="My Shiny Task" readonly/>
+
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete\</button>
+                </div>
+                </div>-->
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
